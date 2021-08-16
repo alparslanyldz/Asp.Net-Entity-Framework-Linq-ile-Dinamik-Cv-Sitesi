@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CvModelStoreContainer" CdmEntityContainer="CvEntities">
+    <EntitySetMapping Name="tbl_adres">
+      <EntityTypeMapping TypeName="CvModel.tbl_adres">
+        <MappingFragment StoreEntitySet="tbl_adres">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Konum" ColumnName="Konum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Calismalarim">
+      <EntityTypeMapping TypeName="CvModel.tbl_Calismalarim">
+        <MappingFragment StoreEntitySet="tbl_Calismalarim">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_hakkimda">
+      <EntityTypeMapping TypeName="CvModel.tbl_hakkimda">
+        <MappingFragment StoreEntitySet="tbl_hakkimda">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Bilgiler" ColumnName="Bilgiler" />
+          <ScalarProperty Name="Egitim" ColumnName="Egitim" />
+          <ScalarProperty Name="IsDeneyimler" ColumnName="IsDeneyimler" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_iletisim">
+      <EntityTypeMapping TypeName="CvModel.tbl_iletisim">
+        <MappingFragment StoreEntitySet="tbl_iletisim">
+          <ScalarProperty Name="Konu" ColumnName="Konu" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Mesaj" ColumnName="Mesaj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_yetenekler">
+      <EntityTypeMapping TypeName="CvModel.tbl_yetenekler">
+        <MappingFragment StoreEntitySet="tbl_yetenekler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Yetenek" ColumnName="Yetenek" />
+          <ScalarProperty Name="Derece" ColumnName="Derece" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Admin">
+      <EntityTypeMapping TypeName="CvModel.tbl_Admin">
+        <MappingFragment StoreEntitySet="tbl_Admin">
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+          <ScalarProperty Name="KullanıcıAdı" ColumnName="KullanıcıAdı" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
